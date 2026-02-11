@@ -18,15 +18,16 @@ jobs:
 
   scan:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Checkout
         run: echo "Checking out code"
       - name: Build
         run: echo "Scan project"
-        
+
   test:
     runs-on: ubuntu-latest
-    needs: build
+    needs: [build, scan]
     steps:
       - uses: actions/checkout@v5
       - name: Run tests
