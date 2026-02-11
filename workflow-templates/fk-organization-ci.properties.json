@@ -1,7 +1,6 @@
 {
     "name": "FK Organization Workflow",
     "description": "FK Organization CI workflow template.",
-    "iconName": "example-icon",
     "categories": [
         "Node"
     ]
