@@ -1,7 +1,4 @@
 {
     "name": "FK Organization Workflow",
-    "description": "FK Organization CI workflow template.",
-    "categories": [
-        "Node"
-    ]
+    "description": "FK Organization CI workflow template."
 }
